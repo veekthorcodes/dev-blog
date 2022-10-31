@@ -10,7 +10,7 @@ const Layout = ({ children, title, keywords, description }) => {
         <meta name="description" content={description} />
       </Head>
       <Header />
-      <main className="container mx-auto">{children}</main>
+      <main className="container p-3 mx-auto mb-4 md:p-0">{children}</main>
     </div>
   );
 };

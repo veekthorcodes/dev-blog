@@ -33,7 +33,7 @@ export default function Home({ posts }) {
   return (
     <Layout>
       <h1 className="text-5xl border-b-4 p-4 font-bold">Latest Posts</h1>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div className="grid gap-3 md:grid-cols-2 lg:grid-cols-3 ">
         {posts.map((post, idx) => (
           <Post key={idx} post={post} />
         ))}
